@@ -1,5 +1,7 @@
 'use client'
 
+export const runtime = 'edge';
+
 import { useCart } from '../context/CartContext'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
