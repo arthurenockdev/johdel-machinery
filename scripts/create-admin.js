@@ -24,7 +24,7 @@ async function main() {
       },
     });
 
-    console.log('Admin user created successfully:', admin.email);
+    
   } catch (error) {
     console.error('Error creating admin user:', error);
   } finally {

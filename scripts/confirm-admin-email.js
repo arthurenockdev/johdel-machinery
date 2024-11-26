@@ -17,7 +17,6 @@ async function main() {
     );
 
     if (error) {
-      console.error('Error updating user:', error);
       return;
     }
 
