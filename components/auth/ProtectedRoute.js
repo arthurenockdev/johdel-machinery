@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import { getSession } from '@/lib/auth';
 import LoadingSpinner from '@/components/LoadingSpinner';
 
-export default function ProtectedRoute({ children, requiredRole = null }) {
+export function ProtectedRoute({ children, requiredRole = null }) {
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(true);
 
